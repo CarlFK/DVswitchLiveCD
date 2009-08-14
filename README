@@ -1,6 +1,7 @@
 DVSsitchLiveCD - start with a Ubuntu Live CD (desktop install CD) 
 and adds the dvswitch suite and other apps related to recording technical talks.
 http://dvswitch.alioth.debian.org/wiki/livecd
+http://mirror.anl.gov/pub/ubuntu-iso/CDs/jaunty/ubuntu-9.04-desktop-i386.iso
 
 
 uniso.sh - # expands a ubuntu live CD so you can hack on it. mounts the iso, copies out the files, including extracing the files from the squashfs file.
