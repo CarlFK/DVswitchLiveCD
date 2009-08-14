@@ -1,0 +1,14 @@
+DVSsitchLiveCD - start with a Ubuntu Live CD (desktop install CD) 
+and adds the dvswitch suite and other apps related to recording technical talks.
+http://dvswitch.alioth.debian.org/wiki/livecd
+
+
+uniso.sh - # expands a ubuntu live CD so you can hack on it. mounts the iso, copies out the files, including extracing the files from the squashfs file.
+
+chroot.sh - chroots into the extracted CD files, runs inroot.sh, cleans up.
+inroot.sh - removes some stuff, adds some stuff, tweaks some stuff.
+inroottest.sh - used to figure out why inroot.sh is messing things up.
+
+mkiso.sh - makes an iso image out of all the files.
+
+qemu.sh - boots the CD image
